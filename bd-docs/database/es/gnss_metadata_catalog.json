@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "number_of_shards": 3,
+    "number_of_replicas": 1,
+    "refresh_interval": "5s"
+  },
+  "mappings": {
+    "properties": {
+      "id": { "type": "keyword" },
+      "archiveId": { "type": "keyword" },
+      "dataType": { "type": "keyword" },
+      "source": {
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+      "stationId": { "type": "keyword" },
+      "taskId": { "type": "keyword" },
+      "boundingBox": {
+        "type": "geo_shape"
+      },
+      "centerPoint": { "type": "geo_point" },
+      "epochStart": { "type": "long" },
+      "epochEnd": { "type": "long" },
+      "tags": {
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+      "qualityLevel": { "type": "keyword" },
+      "isAnomaly": { "type": "boolean" },
+      "createTime": { "type": "date", "format": "epoch_millis||yyyy-MM-dd HH:mm:ss" }
+    }
+  }
+}

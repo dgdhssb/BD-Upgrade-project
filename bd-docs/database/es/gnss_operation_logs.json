@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "properties": {
+      "traceId": { "type": "keyword" },
+      "spanId": { "type": "keyword" },
+      "serviceName": { "type": "keyword" },
+      "logType": { "type": "keyword" },
+      "level": { "type": "keyword" },
+      "message": { "type": "text" },
+      "sourceIp": { "type": "ip" },
+      "userId": { "type": "keyword" },
+      "durationMs": { "type": "integer" },
+      "metadata": { "type": "flattened" },
+      "@timestamp": { "type": "date" }
+    }
+  }
+}
