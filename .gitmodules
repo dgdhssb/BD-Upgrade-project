@@ -1,0 +1,23 @@
+[submodule "bd3-common-lib"]
+	path = bd3-common-lib
+	url = https://github.com/crazycookie-123/bd3-common-lib.git
+
+[submodule "bd3-user-auth-service"]
+	path = bd3-user-auth-service
+	url = https://github.com/crazycookie-123/bd3-user-auth-service.git
+
+[submodule "bd3-data-archive-service"]
+	path = bd3-data-archive-service
+	url = https://github.com/crazycookie-123/bd3-data-archive-service.git
+
+[submodule "bd3-data-lifecycle-service"]
+	path = bd3-data-lifecycle-service
+	url = https://github.com/crazycookie-123/bd3-data-lifecycle-service.git
+
+[submodule "bd3-data-metadata-service"]
+	path = bd3-data-metadata-service
+	url = https://github.com/crazycookie-123/bd3-data-metadata-service.git
+
+[submodule "bd3-gateway-service"]
+	path = bd3-gateway-service
+	url = https://github.com/crazycookie-123/bd3-gateway-service.git
