@@ -21,3 +21,9 @@
 [submodule "bd3-gateway-service"]
 	path = bd3-gateway-service
 	url = https://github.com/crazycookie-123/bd3-gateway-service.git
+[submodule "bd3-monitor-service"]
+	path = bd3-monitor-service
+	url = https://github.com/crazycookie-123/bd3-monitor-service.git
+[submodule "bd3-log-service"]
+	path = bd3-log-service
+	url = https://github.com/crazycookie-123/bd3-log-service.git
